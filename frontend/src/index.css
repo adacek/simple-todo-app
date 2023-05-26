@@ -613,8 +613,13 @@ video {
   flex-grow: 1;
 }
 
+.grow-0 {
+  flex-grow: 0;
+}
+
 .grid-rows-todo {
-  grid-template-rows: 15% 70% 15%;
+  grid-template-rows: 10% 80% 10%;
+  grid-template-columns: 100%;
 }
 
 .flex-col {
@@ -659,6 +664,10 @@ video {
 
 .overflow-y-scroll {
   overflow-y: scroll;
+}
+
+.overflow-clip {
+  overflow: clip;
 }
 
 .truncate {
@@ -743,6 +752,11 @@ video {
   padding-right: 1rem;
 }
 
+.pr-2 {
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -782,6 +796,10 @@ video {
 
 .text-right {
   text-align: right;
+}
+
+.text-left {
+  text-align:justify;
 }
 
 .text-2xl {

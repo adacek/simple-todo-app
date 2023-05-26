@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex flex-col h-full max-h-full">
       <Header />
-      <main className="flex flex-col px-8 h-full max-h-full">
+      <main className="flex flex-col px-8 h-full max-h-full overflow-clip">
         <Routes>
           <Route path="/" element={<WelcomePage />} />
           <Route path="/todo">

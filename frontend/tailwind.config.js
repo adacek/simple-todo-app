@@ -5,7 +5,7 @@ export default {
     extend: {
       gridTemplateRows: {
         layout: '10% 85% 5%',
-        todo: "15% 70% 15%"
+        todo: "10% 80% 10%"
       },
     },
   },
