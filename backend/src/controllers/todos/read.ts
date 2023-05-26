@@ -9,9 +9,6 @@ export const getAll = async (_: Request, res: Response) => {
                 deletedAt: null
             }
         });
-        if (!todos.length) {
-            return handleError(res, 404, "Error", "No todos found");
-        }
         return handleSuccess(res, 200, todos, "Todos retrieved successfully");
     } catch (error) {
         return handleError(res, 500, error, "Error happened");
